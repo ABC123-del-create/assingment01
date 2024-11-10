@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Coffee Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container text-center">
+            <h1>Welcome to Our Coffee Shop</h1>
+            <p>Your perfect cup of coffee awaits</p>
+            <a href="#menu" class="btn btn-warning mt-4">View Our Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container text-center">
+            <h2>Our Menu</h2>
+            <p>Discover our range of delicious coffees and treats</p>
+            <div class="row mt-4">
+                <!-- Coffee Item 1 -->
+                <div class="col-md-4">
+                    <div class="menu-item">
+                        <img src="img/brgr1.jpg" alt="Burger" class="img-fluid mb-2">
+                        <h4>Burger</h4>
+                        <p>Rich and bold Burger shot.</p>
+                        <span class="price">$3.00</span>
+                    </div>
+                </div>
+                <!-- Coffee Item 2 -->
+                <div class="col-md-4">
+                    <div class="menu-item">
+                        <img src="img/ice3.jpg" alt="Ice-Cream" class="img-fluid mb-2">
+                        <h4>Ice-Cream</h4>
+                        <p>Smooth milk mixed with espresso.</p>
+                        <span class="price">$4.50</span>
+                    </div>
+                </div>
+                <!-- Coffee Item 3 -->
+                <div class="col-md-4">
+                    <div class="menu-item">
+                        <img src="img/coffee2.jpg" alt="Cappuccino" class="img-fluid mb-2">
+                        <h4>Cappuccino</h4>
+                        <p>Espresso topped with foamy milk.</p>
+                        <span class="price">$4.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container text-center">
+            <h1>What Our Customers Say</h1>
+            <div class="row mt-4">
+                <!-- Testimonial Card 1 -->
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <img src="img/team_1.jpg" alt="Customer Image" class="testimonial-img">
+                        <p>"Best coffee in town! The espresso is amazing!"</p>
+                        <h5>John Doe</h5>
+                    </div>
+                </div>
+                <!-- Testimonial Card 2 -->
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <img src="img/team_2.jpg" alt="Customer Image" class="testimonial-img">
+                        <p>"Love the atmosphere and the friendly staff with !"</p>
+                        <h5>Jane Smith</h5>
+                    </div>
+                </div>
+                <!-- Testimonial Card 3 -->
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <img src="img/team_3.jpg" alt="Customer Image" class="testimonial-img">
+                        <p>"Perfect place for a morning coffee and pastry!"</p>
+                        <h5>Emily Johnson</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h1 class="text-center">Get in Touch</h1>
+            <div class="row mt-4">
+                <!-- Contact Information -->
+                <div class="col-md-4">
+                    <div class="contact-info">
+                        <h4>Contact Information</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Coffee St, Cityville, CA</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@coffeeshop.com</p>
+                    </div>
+                </div>
+                <!-- Contact Form -->
+                <div class="col-md-8">
+                    <form class="contact-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JavaScript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
